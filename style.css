@@ -1,0 +1,78 @@
+/* bar bolmesi*/
+.bar-container {
+  width: -webkit-fill-available;
+  height: 52px;
+  background: rgba(55, 60, 66, 1);
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.bar-link {
+  display: flex;
+}
+.bar-link > a {
+  text-decoration: none;
+  font-family: "georgia";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #999999;
+}
+.bar-content {
+  display: flex;
+  gap: 10px;
+  margin: 0 20px 0 20px;
+}
+.bar-icon > a > div {
+  border: 8px solid rgba(76, 85, 94, 1);
+  border-radius: 25px;
+  background: rgba(76, 85, 94, 1);
+}
+.bar-icon > a > div:hover {
+  background-color: RGBA(200, 35, 44, 1);
+}
+
+/* Logo bolmesi*/
+.header{
+position: absolute;
+width: -webkit-fill-available;
+height: 193px;
+background: rgba(76, 85, 94, 1);
+margin-top: 52px;
+display: flex;
+flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-content{
+    margin: 0 20px 0 20px;
+}
+input[type="text"] {
+    width: 250px;
+    height: 25px;
+    padding-right: 50px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgba(101, 113, 124, 1);
+    color: white;
+    border: none;
+}
+
+input[type="submit"] {
+    margin-left: -78px;
+    height: 32px;
+    width: 63px;
+    background: rgba(49, 54, 60, 1);
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+input::placeholder{
+    color: white;
+    opacity: 1;
+}
