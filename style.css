@@ -1,9 +1,13 @@
 /* bar bolmesi*/
+.bar {
+  display: flex;
+  justify-content: center;
+}
 .bar-container {
-  width: -webkit-fill-available;
+  width: 1002px;
   height: 52px;
   background: rgba(55, 60, 66, 1);
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -37,42 +41,86 @@
 }
 
 /* Logo bolmesi*/
-.header{
-position: absolute;
-width: -webkit-fill-available;
-height: 193px;
-background: rgba(76, 85, 94, 1);
-margin-top: 52px;
-display: flex;
-flex-direction: row;
+.head {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  /* position: absolute; */
+  width: 1002px;
+  height: 193px;
+  background: rgba(76, 85, 94, 1);
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.header-content{
-    margin: 0 20px 0 20px;
+.header-content {
+  margin: 0 20px 0 20px;
 }
 input[type="text"] {
-    width: 250px;
-    height: 25px;
-    padding-right: 50px;
-    margin-right: 15px;
-    border-radius: 5px;
-    background-color: rgba(101, 113, 124, 1);
-    color: white;
-    border: none;
+  width: 250px;
+  height: 25px;
+  padding-right: 50px;
+  margin-right: 15px;
+  border-radius: 5px;
+  background-color: rgba(101, 113, 124, 1);
+  color: white;
+  border: none;
 }
 
 input[type="submit"] {
-    margin-left: -78px;
-    height: 32px;
-    width: 63px;
-    background: rgba(49, 54, 60, 1);
-    color: white;
-    border: 0;
-    border-radius: 3px;
-    -webkit-appearance: none;
+  margin-left: -78px;
+  height: 32px;
+  width: 68px;
+  background: rgba(49, 54, 60, 1);
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  -webkit-appearance: none;
 }
-input::placeholder{
-    color: white;
-    opacity: 1;
+input::placeholder {
+  color: white;
+  opacity: 1;
+}
+.navbar {
+  position: absolute;
+  background: rgba(49, 54, 60, 1);
+  width: 963px;
+  height: 53px;
+  margin-top: 125px;
+  margin-right: 1002px;
+  display: flex;
+  border-radius: 20px 20px 0 0 ;
+}
+.navbar > ul {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  text-decoration: none;
+}
+.navbar > ul > li > a{
+  text-decoration: none;
+  font-family: "georgia";
+font-size: 12px;
+font-weight: 400;
+font-style: normal;
+text-align: left;
+color: #FFFFFF;
+}
+.navbar > ul > li{
+  width: 72px;
+height: 53px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+.ulnav{
+  gap: 18px;
+  margin-left: 15px;
+}
+.navbar > ul > li:hover{
+  background-color: rgba(32, 35, 38, 1);
 }
