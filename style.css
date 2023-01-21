@@ -57,7 +57,7 @@
   justify-content: space-between;
 }
 .header-content {
-  margin: 0 20px 0 20px;
+  margin: -88px 20px 0 20px;
 }
 input[type="text"] {
   width: 250px;
@@ -89,10 +89,10 @@ input::placeholder {
   background: rgba(49, 54, 60, 1);
   width: 963px;
   height: 53px;
-  margin-top: 125px;
+  margin-top: 91px;
   margin-right: 1002px;
   display: flex;
-  border-radius: 20px 20px 0 0 ;
+  border-radius: 20px 20px 0 0;
 }
 .navbar > ul {
   display: flex;
@@ -100,27 +100,34 @@ input::placeholder {
   gap: 36px;
   text-decoration: none;
 }
-.navbar > ul > li > a{
+.navbar > ul > li > a {
   text-decoration: none;
   font-family: "georgia";
-font-size: 12px;
-font-weight: 400;
-font-style: normal;
-text-align: left;
-color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: -15px;
 }
-.navbar > ul > li{
+.navbar > ul > li {
   width: 72px;
-height: 53px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .navigation {
   display: flex;
   justify-content: center;
 }
-.ulnav{
+.ulnav {
   gap: 18px;
   margin-left: 15px;
 }
-.navbar > ul > li:hover{
+.navbar > ul > li:hover {
   background-color: rgba(32, 35, 38, 1);
+}
+.white-section{
+  background-color: white;
 }
